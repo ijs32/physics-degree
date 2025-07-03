@@ -19,8 +19,8 @@ To run the programs and notebooks in this repository, you'll need Python and Poe
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/physics-code.git # Replace with your repo URL
-    cd physics-code
+    git clone https://github.com/ijs32/py-physics-concepts.git
+    cd py-physics-concepts
     ```
 2.  **Install Poetry dependencies:**
     ```bash
