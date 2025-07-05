@@ -19,7 +19,7 @@ dependencies = [
 packages = [
     {include = "linear_algebra", from = "src"},
     {include = "calc_III", from = "src"},
-    {include = "diff_eqs", from = "src}
+    {include = "phys_II", from = "src"}
 ]
 
 
