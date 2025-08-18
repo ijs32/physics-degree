@@ -8,10 +8,12 @@ This repository serves as a personal collection of Python programs, Jupyter note
 
 ## Structure
 
-  * `src/linear_algebra/`: Code and notebooks for linear algebra concepts.
-  * `src/calc_III/`: (Starts this fall)
-  * `src/phys_II/`: (Starts this fall)
-  * ...and so on for other classes/topics.
+  * `src/classes/linear_algebra/`: Code and notebooks for linear algebra concepts.
+  * `src/classes/calc_III/`: (Starts this fall)
+  * `src/classes/phys_II/`: (Starts this fall)
+  * ...and so on for other classes/topics.  
+
+  * `src/independent/`: Code and notebooks for independent work. Books, projects, anything I find interesting that is somehow related to my coursework.  
 
 ## Getting Started
 
