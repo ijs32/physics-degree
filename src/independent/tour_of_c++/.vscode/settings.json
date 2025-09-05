@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.json.jb": "ruby",
+    "print": "cpp"
+  }
+}
