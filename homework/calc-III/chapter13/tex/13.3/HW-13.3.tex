@@ -1,0 +1,72 @@
+\documentclass[12 pt]{article}
+\usepackage{times}% times new roman
+\usepackage[a4paper, left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}% Required for inserting images
+\usepackage{amsmath} 
+\usepackage{xcolor}
+\usepackage{comment}
+\usepackage{enumitem}
+
+\title{Homework 13.3}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+
+    \item Find $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$ for the following function
+    \[
+        f(x, y) = x^5 - 7xy + 4y^2
+    \]
+    \item Find $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$
+    \[
+        f(x, y) = \sqrt{3x^2 + y^2}
+    \]
+    \item For the function $f(x, y) = \ln (5x + 2y)$, find $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$
+    \item Find $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$ for the following function
+    \[
+        f(x, y) = {\rm e^{6xy}}\ln (2y)
+    \]
+    \item Find $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$
+    \[
+        f(x, y) = 2x^3y
+    \]
+    \item Find $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$ for the function $f(x, y)$
+    \[
+        f(x, y) = \int_{x}^{y} g(t)dt
+    \]
+    \item For the function $f(x,y,z) = \arcsin(xyz)$ find $\frac{\partial f}{\partial x}$, $\frac{\partial f}{\partial y}$, and  $\frac{\partial f}{\partial z}$
+    \item For the function $f(t, \alpha) = \sin(5\pi t + 2\alpha)$, find $\frac{\partial f}{\partial t}$ and $\frac{\partial f}{\partial \alpha}$
+    \item Find all second order partial derivatives of $g(x,y) = x^4y + \sin(y) + y\cos(x)$
+    
+    \newpage
+    
+    \item Traveling waves (for example, water waves or electromagnetic waves) exhibit periodic motion in both time and position. In one dimension (for example, a wave on a string), wave motion is governed by the one-dimensional wave equation below, where $u(x,t)$ is the height or displacement of the wave surface at position x and time t, and c is the constant speed of the wave. Show that $u(x,t)$ given below is a solution of the wave equation.
+    \[
+        \frac{\partial^2 u}{\partial t^2} = c^2\frac{\partial^2 u}{\partial x^2}, u(x,t) = 6\cos(5(x + ct)) + 7\sin(x - ct)
+    \]
+    \begin{enumerate}
+        \item What is the first step in showing that $u(x,t)$ is a solution to the wave equation?
+        \begin{enumerate}[label=\Alph*.] 
+            \item Calculate the left side of the wave equation, $\frac{\partial^2 u}{\partial t^2}$, by first calculating $\frac{\partial u}{\partial x}$.
+            \item Multiply $u(x,t)$ by $c^2$.
+            \item Calculate the left side of the wave equation, $\frac{\partial^2 u}{\partial t^2}$, by first calculating $\frac{\partial u}{\partial t}$.
+            \item Factor $u(x,t)$.
+        \end{enumerate}
+        \item Calculate the first partial derivative $\frac{\partial u}{\partial t}$
+        \item Calculate the second partial derivative $\frac{\partial^2 u}{\partial t^2}$
+        \item What is the next step in showing that $u(x,t)$ is a solution of the wave equation?
+        \begin{enumerate}[label=\Alph*.] 
+            \item Calculate the right side of the wave equation, $\frac{\partial^2 u}{\partial t^2}$, by first calculating $\frac{\partial u}{\partial x}$.
+            \item Multiply $u(x,t)$ by $c^2$.
+            \item Calculate the right side of the wave equation, $\frac{\partial^2 u}{\partial t^2}$, by first calculating $\frac{\partial u}{\partial t}$.
+            \item Factor $u(x,t)$.
+        \end{enumerate}
+        \item Calculate the first partial derivative $\frac{\partial u}{\partial x}$
+        \item Calculate the second partial derivative $\frac{\partial^2 u}{\partial x^2}$
+    \end{enumerate}
+
+\end{enumerate}
+
+\end{document}
